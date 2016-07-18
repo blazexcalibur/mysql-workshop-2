@@ -1,0 +1,3 @@
+select count(*) from Account;
+select count(*) from AddressBook;
+select count(*) from Entry;
