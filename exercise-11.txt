@@ -1,0 +1,3 @@
+select count(*) from Entry where type="other";
+select count(*) from Entry where type="home" or type="work";
+select count(*) from Entry where subtype="phone";
