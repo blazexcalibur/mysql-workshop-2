@@ -1,0 +1,10 @@
+insert Account (email,password,createdOn,modifiedOn) values(
+"abcd@gmail.com", "abcde","2016-07-16", "2016-07-17");
+
+insert AddressBook (accountId,name,createdOn,modifiedOn) values(
+"12345", "abcde","2016-07-16", "2016-07-17");
+
+insert Entry (addressBookId,firstName,lastName,birthday,type,subtype ,contentLineOne,contentLineTwo,contentLineThree,contentLineFour,contentLineFive) values
+("12345", "abcde","efghij","2016-07-16", "home", "phone", "abc","def","ghi","jkl","mno"),
+("12345", "abcde","efghij","2016-07-16", "home", "phone", "abc","def","ghi","jkl","mno"),
+("12345", "abcde","efghij","2016-07-16", "home", "phone", "abc","def","ghi","jkl","mno");
