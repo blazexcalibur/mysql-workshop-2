@@ -1,0 +1,3 @@
+update Account set password="defgh" where id=1;
+update AddressBook set name="defgh" where id=1;
+update Entry set lastName="defgh" where type="home";
