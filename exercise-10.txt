@@ -1,0 +1,3 @@
+select count(*) from Entry where  birthday < "1982-02-12";
+select count(*) from Entry where  birthday > "1965-01-1";
+select * from Entry order by birthday limit 5;
